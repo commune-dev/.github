@@ -18,7 +18,16 @@ uvx commune-mcp             # Claude Desktop / Cursor / Windsurf
 
 ---
 
-Commune handles the infrastructure so your agent can send and receive email like a real person. Each agent gets its own inbox, inbound emails fire webhooks instantly, replies stay threaded in Gmail and Outlook, and everything is searchable. There's also built-in prompt injection protection, structured extraction, and optional SMS — all without running your own mail server.
+Commune handles the infrastructure so your agent can send and receive email like a real person.
+
+- Each agent gets its own dedicated inbox (`@yourdomain.com` or `@agents.commune.email`)
+- Inbound emails fire webhooks instantly with HMAC signing and automatic retries
+- Replies stay threaded in Gmail, Outlook, and Apple Mail — no extra work
+- Search across your entire inbox history using natural language
+- Structured extraction lets you auto-parse email fields to JSON without an extra LLM call
+- Inbound content goes through prompt injection analysis before it touches your agent
+- Provision real phone numbers and handle two-way SMS alongside email
+- Self-hostable — the full backend is open source
 
 ---
 
