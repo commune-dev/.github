@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/commune-ai?color=red&label=commune-ai)](https://www.npmjs.com/package/commune-ai)
 [![npm Downloads](https://img.shields.io/npm/dm/commune-ai?label=node%20installs%2Fmo&color=red)](https://www.npmjs.com/package/commune-ai)
 [![Smithery](https://smithery.ai/badge/commune)](https://smithery.ai/server/commune)
-[![Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.commune.email%2Fstatus%2Fshield&label=API)](https://commune.email/status)
+[![Status](https://img.shields.io/website?url=https%3A%2F%2Fstatus.commune.email&label=API&up_message=operational&down_message=degraded&color=green)](https://status.commune.email)
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/commune-dev/commune-python/blob/main/LICENSE)
 
 ## Commune — Email & SMS Infrastructure for AI Agents
@@ -74,4 +74,4 @@ console.log(inbox.address); // → support@agents.commune.email
 
 ---
 
-*[commune.email](https://commune.email) · [Docs](https://commune.email/docs) · [Status](https://commune.email/status)*
+*[commune.email](https://commune.email) · [Docs](https://commune.email/docs) · [Status](https://status.commune.email)*
